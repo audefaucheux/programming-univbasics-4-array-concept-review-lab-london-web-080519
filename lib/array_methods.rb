@@ -25,7 +25,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  smallest_number = 0
+  smallest_number = 1
   index = 0
   while index < array.length do
     if array[index] < smallest_number
